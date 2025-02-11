@@ -151,7 +151,7 @@ public class PracticeProblem {
 		System.out.print("What word would you like to replace it with: ");
 		String wordNew = sc.nextLine();
 
-		System.out.println(sen.replaceFirst(wordReplace, wordNew));
+		System.out.println(sen.replaceAll(wordReplace, wordNew));
 		
 	}
 
